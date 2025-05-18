@@ -1,141 +1,142 @@
-{
-  "nombreMision": "Odisea Estelar",
-  "idMision": "641a8f1e1d5f4c3a2b7e9f01",
-  "fechaLanzamiento": "2025-07-20T14:30:00Z",
-  "duracionDias": 365,
-  "distanciaAniosLuz": 4.367,
-  "presupuestoUSD": 1500000000.00,
-  "esTripulada": true,
-  "proximoAterrizaje": null,
-  "coordenadasTrayectoria": [
-    { "x": 0.0, "y": 1.0, "z": 2.0 },
-    { "x": 3.0, "y": 4.0, "z": 5.0 }
-  ],
-  "cargaUtil": {
-    "tipo": "Rover",
-    "modelo": "Explorer-X",
-    "numeroSerie": 987654321098765432
+[
+  {
+    "nombreMision": "Odisea Estelar",
+    "idMision": "641a8f1e1d5f4c3a2b7e9f01",
+    "fechaLanzamiento": "2025-07-20T14:30:00Z",
+    "duracionDias": 365,
+    "distanciaAniosLuz": 4.367,
+    "presupuestoUSD": 1500000000.00,
+    "esTripulada": true,
+    "proximoAterrizaje": null,
+    "coordenadasTrayectoria": [
+      { "x": 0.0, "y": 1.0, "z": 2.0 },
+      { "x": 3.0, "y": 4.0, "z": 5.0 }
+    ],
+    "cargaUtil": {
+      "tipo": "Rover",
+      "modelo": "Explorer-X",
+      "numeroSerie": 987654321098765432
+    },
+    "telemetriaBinaria": "U3BhY2UgVGVsZW1ldHJ5IERhdGE=",
+    "logComandosRegex": "/^CMD_[A-Z]+/i",
+    "ultimoLatido": "Timestamp(1710748800, 42)",
+    "campoMinKey": "minKey",
+    "campoMaxKey": "maxKey",
+    "referenciaTripulacion": {
+      "$ref": "tripulacion",
+      "$id": "641b9f2a2e6f5d4b3c8a0e12"
+    }
   },
-  "telemetriaBinaria": "U3BhY2UgVGVsZW1ldHJ5IERhdGE=",
-  "logComandosRegex": "/^CMD_[A-Z]+/i",
-  "ultimoLatido": "Timestamp(1710748800, 42)",
-  "campoMinKey": "minKey",
-  "campoMaxKey": "maxKey",
-  "referenciaTripulacion": {
-    "$ref": "tripulacion",
-    "$id": "641b9f2a2e6f5d4b3c8a0e12"
-  }
-}
-{
-  "nombreMision": "Exploración de Europa",
-  "idMision": "642a1a2b3c4d5e6f7g8h9i01",
-  "fechaLanzamiento": "2026-03-15T09:00:00Z",
-  "duracionDias": 720,
-  "distanciaAniosLuz": 2.5,
-  "presupuestoUSD": 3000000000.00,
-  "esTripulada": false,
-  "proximoAterrizaje": null,
-  "coordenadasTrayectoria": [
-    { "x": 0.0, "y": 0.5, "z": 1.5 },
-    { "x": 2.0, "y": 2.5, "z": 3.0 }
-  ],
-  "cargaUtil": {
-    "tipo": "Sonda",
-    "modelo": "Europa-Explorer",
-    "numeroSerie": 123456789012345678
+  {
+    "nombreMision": "Exploración de Europa",
+    "idMision": "642a1a2b3c4d5e6f7g8h9i01",
+    "fechaLanzamiento": "2026-03-15T09:00:00Z",
+    "duracionDias": 720,
+    "distanciaAniosLuz": 2.5,
+    "presupuestoUSD": 3000000000.00,
+    "esTripulada": false,
+    "proximoAterrizaje": null,
+    "coordenadasTrayectoria": [
+      { "x": 0.0, "y": 0.5, "z": 1.5 },
+      { "x": 2.0, "y": 2.5, "z": 3.0 }
+    ],
+    "cargaUtil": {
+      "tipo": "Sonda",
+      "modelo": "Europa-Explorer",
+      "numeroSerie": 123456789012345678
+    },
+    "telemetriaBinaria": "U29uZGEsIE1vbmdvYg==",
+    "logComandosRegex": "/^CMD_[0-9]{3}$/i",
+    "ultimoLatido": "Timestamp(1710844800, 51)",
+    "campoMinKey": "minKey",
+    "campoMaxKey": "maxKey",
+    "referenciaTripulacion": {
+      "$ref": "tripulacion",
+      "$id": "642b9f2a2e6f5d4b3c8a0e12"
+    }
   },
-  "telemetriaBinaria": "U29uZGEsIE1vbmdvYg==",
-  "logComandosRegex": "/^CMD_[0-9]{3}$/i",
-  "ultimoLatido": "Timestamp(1710844800, 51)",
-  "campoMinKey": "minKey",
-  "campoMaxKey": "maxKey",
-  "referenciaTripulacion": {
-    "$ref": "tripulacion",
-    "$id": "642b9f2a2e6f5d4b3c8a0e12"
-  }
-}
-{
-  "nombreMision": "Luna 2.0",
-  "idMision": "643b2c3d4e5f6g7h8i9j0k11",
-  "fechaLanzamiento": "2027-06-10T16:45:00Z",
-  "duracionDias": 450,
-  "distanciaAniosLuz": 0.003,
-  "presupuestoUSD": 500000000.00,
-  "esTripulada": true,
-  "proximoAterrizaje": "2027-12-01T00:00:00Z",
-  "coordenadasTrayectoria": [
-    { "x": 1.2, "y": -3.5, "z": 2.4 },
-    { "x": 2.5, "y": 0.3, "z": -1.8 }
-  ],
-  "cargaUtil": {
-    "tipo": "Base Lunar",
-    "modelo": "LunarBase-Alpha",
-    "numeroSerie": 987654321001234567
+  {
+    "nombreMision": "Luna 2.0",
+    "idMision": "643b2c3d4e5f6g7h8i9j0k11",
+    "fechaLanzamiento": "2027-06-10T16:45:00Z",
+    "duracionDias": 450,
+    "distanciaAniosLuz": 0.003,
+    "presupuestoUSD": 500000000.00,
+    "esTripulada": true,
+    "proximoAterrizaje": "2027-12-01T00:00:00Z",
+    "coordenadasTrayectoria": [
+      { "x": 1.2, "y": -3.5, "z": 2.4 },
+      { "x": 2.5, "y": 0.3, "z": -1.8 }
+    ],
+    "cargaUtil": {
+      "tipo": "Base Lunar",
+      "modelo": "LunarBase-Alpha",
+      "numeroSerie": 987654321001234567
+    },
+    "telemetriaBinaria": "VGVsZSBtZXNhamUgbGluZWEgY29uIHZpYSBtZW5v",
+    "logComandosRegex": "/^CMD_[A-Za-z]{4}_LUNA$/i",
+    "ultimoLatido": "Timestamp(1710940800, 60)",
+    "campoMinKey": "minKey",
+    "campoMaxKey": "maxKey",
+    "referenciaTripulacion": {
+      "$ref": "tripulacion",
+      "$id": "643c9f2a2e6f5d4b3c8a0e15"
+    }
   },
-  "telemetriaBinaria": "VGVsZSBtZXNhamUgbGluZWEgY29uIHZpYSBtZW5v",
-  "logComandosRegex": "/^CMD_[A-Za-z]{4}_LUNA$/i",
-  "ultimoLatido": "Timestamp(1710940800, 60)",
-  "campoMinKey": "minKey",
-  "campoMaxKey": "maxKey",
-  "referenciaTripulacion": {
-    "$ref": "tripulacion",
-    "$id": "643c9f2a2e6f5d4b3c8a0e15"
-  }
-}
-{
-  "nombreMision": "ExoExploración-47b",
-  "idMision": "644d5e6f7g8h9i0j1k2l3m4",
-  "fechaLanzamiento": "2028-08-22T08:30:00Z",
-  "duracionDias": 1080,
-  "distanciaAniosLuz": 50.2,
-  "presupuestoUSD": 10000000000.00,
-  "esTripulada": false,
-  "proximoAterrizaje": "2029-11-15T12:00:00Z",
-  "coordenadasTrayectoria": [
-    { "x": -1.2, "y": 3.5, "z": -4.8 },
-    { "x": 5.0, "y": -1.1, "z": 0.4 }
-  ],
-  "cargaUtil": {
-    "tipo": "Sonda Exoplanetaria",
-    "modelo": "ExoProbe-X1",
-    "numeroSerie": 543210987654321098
+  {
+    "nombreMision": "ExoExploración-47b",
+    "idMision": "644d5e6f7g8h9i0j1k2l3m4",
+    "fechaLanzamiento": "2028-08-22T08:30:00Z",
+    "duracionDias": 1080,
+    "distanciaAniosLuz": 50.2,
+    "presupuestoUSD": 10000000000.00,
+    "esTripulada": false,
+    "proximoAterrizaje": "2029-11-15T12:00:00Z",
+    "coordenadasTrayectoria": [
+      { "x": -1.2, "y": 3.5, "z": -4.8 },
+      { "x": 5.0, "y": -1.1, "z": 0.4 }
+    ],
+    "cargaUtil": {
+      "tipo": "Sonda Exoplanetaria",
+      "modelo": "ExoProbe-X1",
+      "numeroSerie": 543210987654321098
+    },
+    "telemetriaBinaria": "Q2FsbCBBd2F5",
+    "logComandosRegex": "/^EXO_[A-Za-z0-9]{5}$/i",
+    "ultimoLatido": "Timestamp(1711036800, 72)",
+    "campoMinKey": "minKey",
+    "campoMaxKey": "maxKey",
+    "referenciaTripulacion": {
+      "$ref": "tripulacion",
+      "$id": "644f9f2a2e6f5d4b3c8a0e20"
+    }
   },
-  "telemetriaBinaria": "Q2FsbCBBd2F5",
-  "logComandosRegex": "/^EXO_[A-Za-z0-9]{5}$/i",
-  "ultimoLatido": "Timestamp(1711036800, 72)",
-  "campoMinKey": "minKey",
-  "campoMaxKey": "maxKey",
-  "referenciaTripulacion": {
-    "$ref": "tripulacion",
-    "$id": "644f9f2a2e6f5d4b3c8a0e20"
+  {
+    "nombreMision": "Exploración 16 Psyche",
+    "idMision": "645e7f8b9a1b2c3d4e5f6g7",
+    "fechaLanzamiento": "2029-01-10T11:00:00Z",
+    "duracionDias": 1000,
+    "distanciaAniosLuz": 0.0008,
+    "presupuestoUSD": 2000000000.00,
+    "esTripulada": false,
+    "proximoAterrizaje": "2029-09-30T18:00:00Z",
+    "coordenadasTrayectoria": [
+      { "x": 0.0, "y": -0.8, "z": 1.2 },
+      { "x": 1.5, "y": 2.0, "z": -1.3 }
+    ],
+    "cargaUtil": {
+      "tipo": "Sonda Asteroidal",
+      "modelo": "PsycheProbe-2",
+      "numeroSerie": 678901234567890123
+    },
+    "telemetriaBinaria": "VGhlIGFzY2VuZGVkIGF0bW9zcGhlcmUgYXJlIGJlY29taW5nIG1ldGFsbGljLg==",
+    "logComandosRegex": "/^PSYCHE_[A-Za-z0-9]{4}$/i",
+    "ultimoLatido": "Timestamp(1711132800, 80)",
+    "campoMinKey": "minKey",
+    "campoMaxKey": "maxKey",
+    "referenciaTripulacion": {
+      "$ref": "tripulacion",
+      "$id": "645f9f2a2e6f5d4b3c8a0e25"
+    }
   }
-}
-{
-  "nombreMision": "Exploración 16 Psyche",
-  "idMision": "645e7f8b9a1b2c3d4e5f6g7",
-  "fechaLanzamiento": "2029-01-10T11:00:00Z",
-  "duracionDias": 1000,
-  "distanciaAniosLuz": 0.0008,
-  "presupuestoUSD": 2000000000.00,
-  "esTripulada": false,
-  "proximoAterrizaje": "2029-09-30T18:00:00Z",
-  "coordenadasTrayectoria": [
-    { "x": 0.0, "y": -0.8, "z": 1.2 },
-    { "x": 1.5, "y": 2.0, "z": -1.3 }
-  ],
-  "cargaUtil": {
-    "tipo": "Sonda Asteroidal",
-    "modelo": "PsycheProbe-2",
-    "numeroSerie": 678901234567890123
-  },
-  "telemetriaBinaria": "VGhlIGFzY2VuZGVkIGF0bW9zcGhlcmUgYXJlIGJlY29taW5nIG1ldGFsbGljLg==",
-  "logComandosRegex": "/^PSYCHE_[A-Za-z0-9]{4}$/i",
-  "ultimoLatido": "Timestamp(1711132800, 80)",
-  "campoMinKey": "minKey",
-  "campoMaxKey": "maxKey",
-  "referenciaTripulacion": {
-    "$ref": "tripulacion",
-    "$id": "645f9f2a2e6f5d4b3c8a0e25"
-  }
-}
-
+]
